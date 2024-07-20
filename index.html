@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="Ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Test">
+    <meta name="description" content="Тестовый сайт">
+    <title>ResumHus</title>
+    <link rel="stylesheet" href="01_selectors.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<br>
+
+<body>
+
+    <div class="container">
+        <div class="info">
+            <img src="scam.jpg" alt="Даниил Ксенофонтов" class="avatar" >
+
+            <div class="info-text">
+                <h1>Даниил Ксенофонтов</h1>
+                <p>Промышленный рабочий:
+                    <br> Металлообработчик - токарь, шлифовщик. Пропитчик. 3D печатник - FDM, SLA.
+                </p>
+
+                <h4>Список социальных сетей</h4>
+
+                <a href="" target="_blank">VK</a> |
+                <a href="https://t.me/hunugu" target="_blank">Telegram</a>|
+                <a href="" target="_blank">MailYandex</a>
+            </div>
+        </div>
+
+        <div class="card bg-green">
+            <h2>Мои хобби</h2>
+            <Ol class="list">
+                <li>Авиамоделирование</li>
+                <li>Разработка игр</li>
+                <li>Программирование</li>
+            </Ol>
+        </div>
+
+        <div class="card bg-red">
+            <h2>Опыт работы</h2>
+            <table class="table">
+                <!-- <thead>
+                    <tr>
+                        <th>Название</th>
+                        <th>Должность</th>
+                        <th>Год</th>
+                    </tr> -->
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>ОАО "ЕПК Волжский"</td>
+                        <td>Токарь</td>
+                        <td>2017-2019</td>
+                    </tr>
+                    <tr>
+                        <td>ОАО "МЗ" *Маяк*</td>
+                        <td>Пропитчик</td>
+                        <td>2019-2022</td>
+                    </tr>
+                    <tr>
+                        <td>-</td>
+                        <td>3d Печатник</td>
+                        <td>2023-по н.вр.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="card bg-yellow">
+            <h2>Мои курсы</h2>
+            <ul class="link-list">
+                <li>Получение профессии Frontend разработчика</li>
+                <li>Прочие It</li>
+                <li>Все курсы</li>
+
+            </ul>
+        </div>
+
+        <div class="card bg-imp">
+            <h2>Литература</h2>
+            <ul>
+                <li>Прочие материалы</li>
+            </ul>
+        </div>
+
+
+
+
+        <form action="" class="form">
+            <h2>Связаться со мной</h2>
+         <div class="form-row">
+            <div class="form-group">
+                <label for="name">Ваше имя:</label>
+                <input type="text" id="name" placeholder="Как к вам обращаться?">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Ваш email:</label>
+                <input type="email" id="email" placeholder="Введите email">
+            </div>
+         </div>
+            <div class="form-group">
+                <label for="message">Ваше Сообщение:</label>
+                
+                <textarea id="message" cols="20" rows="5" placeholder="Чем могу быть полезен?"></textarea>
+            </div>
+
+
+          
+            <input class="btn" type="submit" value="Отправить форму!">
+
+        </form>
+
+
+
+    </div>
+</body>
+
+
+</html>
